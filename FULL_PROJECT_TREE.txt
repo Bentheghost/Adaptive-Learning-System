@@ -1,0 +1,118 @@
+Adaptive_E-Learning_System/
+├── .gitignore
+├── .python-version
+├── LICENSE
+├── README.md
+├── FULL_PROJECT_TREE.txt
+├── .vscode/
+│   └── settings.json
+├── backend/
+│   ├── .env.example
+│   ├── app.py
+│   ├── config.py
+│   ├── extensions.py
+│   ├── gamification_engine.py
+│   ├── knowledge_tracker.py
+│   ├── llm_service.py
+│   ├── models.py
+│   ├── requirements.txt
+│   ├── test_bkt.py
+│   ├── agents/
+│   │   ├── __init__.py
+│   │   ├── assessment_agent.py
+│   │   ├── base_agent.py
+│   │   ├── coordinator_agent.py
+│   │   ├── knowledge_agent.py
+│   │   ├── recommendation_agent.py
+│   │   ├── teaching_agent.py
+│   │   └── tutor_agent.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── auth.py
+│   │   ├── courses.py
+│   │   ├── progress.py
+│   │   ├── quiz.py
+│   │   ├── recommendations.py
+│   │   └── tutor.py
+│   ├── scripts/
+│   │   ├── __init__.py
+│   │   ├── clear_cache.py
+│   │   ├── clear_lesson_cache.py
+│   │   ├── reset_password.py
+│   │   ├── reset_progress.py
+│   │   ├── seed_advanced.py
+│   │   ├── seed_demo_user.py
+│   │   ├── seed_quiz.py
+│   │   └── user_admin.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   └── seed_data.py
+│   └── tests/
+│       ├── __init__.py
+│       └── test_bkt.py
+├── data/
+│   └── database.db
+├── frontend/
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   ├── vite.config.js
+│   └── public/
+└── frontend/src/
+    ├── App.jsx
+    ├── index.jsx
+    ├── context/
+    │   └── AuthContext.jsx
+    ├── hooks/
+    │   ├── useApi.js
+    │   └── useAuth.js
+    ├── services/
+    │   └── api.js
+    ├── utils/
+    │   └── helpers.js
+    ├── styles/
+    │   └── index.css
+    └── components/
+        ├── Admin/
+        │   ├── AdminDashboard.jsx
+        │   └── AdminLogin.jsx
+        ├── Agent/
+        │   └── AgentMonitoring.jsx
+        ├── Auth/
+        │   ├── Login.jsx
+        │   └── Register.jsx
+        ├── Common/
+        │   ├── Button.jsx
+        │   ├── Card.jsx
+        │   ├── GlobalChatbot.jsx
+        │   ├── Loading.jsx
+        │   └── Modal.jsx
+        ├── Dashboard/
+        │   ├── AgentStatus.jsx
+        │   ├── Dashboard.jsx
+        │   ├── PreAssessment.jsx
+        │   ├── ProgressCard.jsx
+        │   └── TopicCard.jsx
+        ├── Layout/
+        │   ├── Footer.jsx
+        │   ├── Navbar.jsx
+        │   └── Sidebar.jsx
+        ├── Learn/
+        │   ├── CodePlayground.jsx
+        │   ├── CourseView.jsx
+        │   ├── Learn.jsx
+        │   └── LessonViewer.jsx
+        ├── Progress/
+        │   ├── KnowledgeGraph.jsx
+        │   ├── Progress.jsx
+        │   ├── ProgressTimeline.jsx
+        │   └── SkillTree.jsx
+        └── Quiz/
+            ├── Question.jsx
+            ├── Quiz.jsx
+            └── Results.jsx
